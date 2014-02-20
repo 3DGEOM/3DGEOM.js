@@ -1,20 +1,30 @@
-// The following syntax can be modified to print to the console.log depending on the time of day in military hours.
-// The time should be a value between 0000 and 2400
+// .js that prompts the user
 
-var CurrentTime = ("0800")
+confirm("What time is it in your current location?")
 
-//if else statement 
+//prompt the user to submit their time in 24 hr format
 
-if (time<1200)
-  {
-  x="Good morning"
-  }
-  
-else
-  {
-  x="Good evening"
-  }
-  
-//the appropriate greeting can be printed to the console.
-  
-  console.log(x)
+var CurrentTime = prompt("What is the current time in 24 hr format?")
+
+
+//if else conditional syntax 
+
+if (time < 1200) {
+    x = "Good morning"
+}
+
+else {
+    x = "Good evening"
+}
+
+//the greeting can be printed to the console based on the conditional
+
+console.log(x)
+
+
+//Proceed to prompt the user
+var userAnswer = prompt("What is your time zone?")
+// JavaScript source code
+
+
+
